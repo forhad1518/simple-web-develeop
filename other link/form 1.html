@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Form Create</title>
+    <link rel="shortcut icon" href="../Assets/kun fu panda.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="../Style/style.css">
+    <style>
+        .d1{
+            margin-top: 50px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        label{
+            display: block;
+            margin-bottom: 5px;
+        }
+        .d2{
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Nice Banner</a></li>
+                <li><a href="form 1.html">Animal Form</a></li>
+                <li><a href="#Blank">Parallax Sections</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- select photo div -->
+    <div class="d1">
+        <label for="Animal">Choose Your Animal Photo: 
+            <select name="Animal" id="Animal">
+                <option value="Kun-Fu Panda">Kun-Fu Panda</option>
+                <option value="Bagira ">Bagira</option>
+                <option value="Sher Khan">Sher Khan</option>
+            </select>
+        </label>
+        <img src="../Assets/kun fu panda.jpeg"alt="" style="display: block;">
+        <a href="#blank">for more informations</a>
+    </div>
+    <br>
+    <!-- form div -->
+    <div class="d2">
+        <h4>Feedback Form</h4>
+        <label for="Name4">Name:
+            <input type="text" name="" id="for" placeholder="name" required>
+        </label>
+        <label for="date">Date:
+            <input type="date" name="" id="date">
+        </label>
+            <p style="margin: 0;">Comment:</p>
+            <textarea name="" id="comment" placeholder="minimum 5 words" maxlength="250" rows="4" cols="50"></textarea>
+        </label>
+        <input type="submit" value="submit" style="display: block;">
+    </div>
+</body>
+</html>
