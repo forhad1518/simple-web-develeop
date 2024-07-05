@@ -1,0 +1,78 @@
+/* This is for whole file */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* This is for menu */
+nav > ul > li{
+    display: inline;
+
+}
+li > a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #fff;
+}
+li > a:hover{
+    color: blueviolet;
+    background-color: wheat;
+    transition: 0.5s ease-in;
+}
+nav ul{
+    text-align: center;
+}
+nav{
+    background-color: crimson;
+    padding: 20px 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* this is for main contents */
+/* This is banner for banner html */
+.banner{
+    height: 90dvh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.812), rgba(0, 0, 0, 0.669)), url("../Assets/bussiness\ photo.jpeg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    color: wheat;
+    text-align: center;
+}
+.content h2{
+    color: blueviolet;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.content p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.content button{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px 0;
+    font-weight: 600;
+    padding: 15px 32px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.content button:hover{
+    background-color: #fff;
+    transition: 1s ease-in;
+}
+/* this if for footer */
+footer{
+    text-align: center;
+    padding: 20px;
+}
